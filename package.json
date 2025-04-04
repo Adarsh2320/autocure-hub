@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+    "@tailwindcss/vite": "^4.0.6",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.0",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.2",
+    "mysql2": "^3.12.0",
+    "tailwindcss": "^4.0.6"
+  },
+  "name": "autocure-hub",
+  "version": "1.0.0",
+  "description": "Vehicle Service Web Application",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vyasarpan23/AutoCure-Hub.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/vyasarpan23/AutoCure-Hub/issues"
+  },
+  "homepage": "https://github.com/vyasarpan23/AutoCure-Hub#readme"
+}
