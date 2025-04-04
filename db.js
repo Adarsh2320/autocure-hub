@@ -4,7 +4,7 @@ const dotenv = require('dotenv');
 dotenv.config(); // Load environment variables from .env file
 
 // Create a PostgreSQL connection pool
-const pool = new `Pool`({
+const pool = new Pool({
     host: process.env.DB_HOST,   // Load from .env
     user: process.env.DB_USER,   // Load from .env
     password: process.env.DB_PASS, // Load from .env
